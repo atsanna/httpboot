@@ -1,8 +1,11 @@
+// Internet-Bootloader for Atmega1284p and WizNet W5500, developped using Atmel Studio.
+// See http://s.wangnick.de/doku.php?id=iot-basisstation for target hardware.
+// (C) Copyright 2014 Sebastian Wangnick.
+
 #define F_CPU 8000000
 #define BAUD 57600
 #include <util/setbaud.h>
 
-// Bootloader for Atmega1284P with W5500
 // Fuses: Low:0xE2 High:0x90 Extended:0xFD
 //  Internal oscillator, 6CK+65ms
 //  Boot reset vector enabled, boot section size 4096 words start address $F000 (0x1E000)

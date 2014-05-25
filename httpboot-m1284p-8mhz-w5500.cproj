@@ -149,6 +149,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="httpboot.tcl">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="README.txt">
+      <SubType>compile</SubType>
+    </None>
     <None Include="w5500_syslog_trailingcrap.cpp.hex">
       <SubType>compile</SubType>
     </None>

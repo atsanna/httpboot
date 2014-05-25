@@ -1,3 +1,7 @@
+# Internet-Bootloader for Atmega1284p and WizNet W5500, developped using Atmel Studio.
+# See http://s.wangnick.de/doku.php?id=iot-basisstation for target hardware.
+# (C) Copyright 2014 Sebastian Wangnick.
+
 proc data {text addr} {
   if {![info exists ::cnt(data)]} {set ::cnt(data) -1}
   set row [incr ::cnt(data)]
